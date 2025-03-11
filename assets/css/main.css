@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
-/*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -72,7 +68,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
+
 
 	html {
 		box-sizing: border-box;
@@ -221,7 +217,7 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
-/* Container */
+
 
 	.container {
 		margin: 0 auto;
@@ -282,7 +278,7 @@ input, select, textarea {
 
 		}
 
-/* Row */
+
 
 	.row {
 		display: flex;
@@ -1505,7 +1501,7 @@ input, select, textarea {
 
 		}
 
-/* Form */
+
 
 	form label {
 		color: #3e3e3e;
@@ -1573,7 +1569,7 @@ input, select, textarea {
 		border: 0;
 	}
 
-/* Tables */
+
 
 	table {
 		width: 100%;
@@ -1607,7 +1603,7 @@ input, select, textarea {
 				color: #fff;
 			}
 
-/* Section/Article */
+
 
 	section, article {
 		margin-bottom: 3em;
@@ -1620,7 +1616,7 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-/* Image */
+
 
 	.image {
 		display: inline-block;
@@ -1658,7 +1654,7 @@ input, select, textarea {
 				width: auto;
 			}
 
-/* Button */
+
 
 	input[type="button"],
 	input[type="submit"],
@@ -1745,7 +1741,7 @@ input, select, textarea {
 				background-color: #3f3f3f;
 			}
 
-/* List */
+
 
 	ul {
 		list-style: disc;
@@ -1765,7 +1761,7 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
-/* Social */
+
 
 	ul.social {
 		cursor: default;
@@ -1891,7 +1887,7 @@ input, select, textarea {
 						background-color: transparent;
 					}
 
-/* Actions */
+
 
 	ul.actions {
 		list-style: none;
@@ -1908,7 +1904,7 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
-/* Box */
+
 
 	.box {
 		background: #fff;
@@ -1951,7 +1947,7 @@ input, select, textarea {
 			width: auto;
 		}
 
-/* Icons */
+
 
 	.icon {
 		text-decoration: none;
@@ -1998,7 +1994,7 @@ input, select, textarea {
 				font-size: 6em;
 			}
 
-/* Wrappers */
+
 
 	.wrapper {
 		background-image: url("images/bg.png");
@@ -2047,7 +2043,7 @@ input, select, textarea {
 					background: #252525;
 				}
 
-/* Nav */
+
 
 	#nav {
 		background-color: #282828;
@@ -2112,7 +2108,7 @@ input, select, textarea {
 					border-top: solid 0.6em #282828;
 				}
 
-/* Articles */
+
 
 	body > article {
 		margin-bottom: 0;
@@ -2151,7 +2147,7 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
-/* Copyright */
+
 
 	#copyright {
 		color: #666;
@@ -2189,11 +2185,11 @@ input, select, textarea {
 				color: #777;
 			}
 
-/* Large */
+
 
 	@media screen and (max-width: 1280px) {
 
-		/* Basic */
+	
 
 			body {
 				font-size: 11pt;
@@ -2207,7 +2203,7 @@ input, select, textarea {
 				margin: 0 0 4em 0;
 			}
 
-		/* Wrappers */
+	
 
 			.wrapper {
 				padding: 5em 0 5em 0;
@@ -2219,7 +2215,7 @@ input, select, textarea {
 					padding: 2em 0 2em 0;
 				}
 
-		/* Articles */
+	
 
 			#top {
 				padding: 8em 0;
@@ -2233,11 +2229,11 @@ input, select, textarea {
 
 	}
 
-/* Medium */
+
 
 	@media screen and (max-width: 980px) {
 
-		/* Articles */
+	
 
 			#top {
 				text-align: center;
@@ -2250,11 +2246,11 @@ input, select, textarea {
 
 	}
 
-/* Small */
+
 
 	@media screen and (max-width: 736px) {
 
-		/* Basic */
+	
 
 			body {
 				padding-top: 44px;
@@ -2296,13 +2292,13 @@ input, select, textarea {
 				margin: 1.5em 0 2em 0;
 			}
 
-		/* Section/Article */
+	
 
 			section, article {
 				clear: both;
 			}
 
-		/* Button */
+	
 
 			input[type="button"],
 			input[type="submit"],
@@ -2324,7 +2320,7 @@ input, select, textarea {
 					letter-spacing: 0;
 				}
 
-		/* Social */
+	
 
 			ul.social {
 				padding: 1em 0.5em 0 0.5em;
@@ -2342,7 +2338,7 @@ input, select, textarea {
 							background-color: transparent !important;
 						}
 
-		/* Actions */
+	
 
 			ul.actions {
 				margin: 0;
@@ -2357,7 +2353,7 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
-		/* Box */
+	
 
 			.box {
 				padding: 30px 20px 30px 20px;
@@ -2392,14 +2388,14 @@ input, select, textarea {
 					margin-right: auto !important;
 				}
 
-		/* Wrappers */
+	
 
 			.wrapper {
 				padding: 3em 0;
 				text-align: center;
 			}
 
-		/* Nav */
+	
 
 			#nav {
 				height: 44px;
@@ -2417,7 +2413,7 @@ input, select, textarea {
 						background-color: transparent;
 					}
 
-		/* Articles */
+	
 
 			#top {
 				padding: 3em 0;
@@ -2437,7 +2433,7 @@ input, select, textarea {
 				margin: 0;
 			}
 
-		/* Copyright */
+	
 
 			#copyright {
 				font-size: 1em;
@@ -2458,7 +2454,7 @@ input, select, textarea {
 
 	}
 
-/* Dark Mode Styles */
+
 :root {
   --bg-color: #121212;
   --text-color: #e0e0e0;
@@ -2478,7 +2474,7 @@ input, select, textarea {
   --button-alt: #333333;
 }
 
-/* Apply dark mode */
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -2505,7 +2501,7 @@ hr {
   box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.05);
 }
 
-/* Nav styles */
+
 #nav {
   background-color: var(--nav-bg);
 }
@@ -2522,7 +2518,7 @@ hr {
   border-top-color: var(--nav-bg);
 }
 
-/* Wrapper styles */
+
 .wrapper {
   background-image: url("images/bg-dark.jpg");
 }
@@ -2545,7 +2541,7 @@ hr {
   background-color: var(--section-alt-bg);
 }
 
-/* Form elements */
+
 form label {
   color: var(--heading-color);
 }
@@ -2569,13 +2565,13 @@ form textarea:focus {
   box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px var(--link-color);
 }
 
-/* Box styles */
+
 .box {
   background: var(--box-bg);
   box-shadow: inset 0px 0px 0px 1px var(--border-color), 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
-/* Button styles */
+
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
@@ -2601,19 +2597,19 @@ button.alt,
   background-color: var(--button-alt);
 }
 
-/* Table styles */
+
 table.default thead {
   background: #333;
 }
 
-/* Copyright section */
+
 #copyright {
   color: #666;
 }
 
-/* Add this at the end of your main.css file, after the dark mode styles */
 
-/* Social icons in the top section */
+
+
 #top .social {
 	margin-top: 1.5em;
 	margin-bottom: 0;
@@ -2649,13 +2645,13 @@ table.default thead {
 	top: -5px;
   }
 
-/* Circular profile image */
+
 #top .image.fit {
   border-radius: 50%;
   overflow: hidden;
   max-width: 250px;
-  width: 250px; /* Fixed width */
-  height: 250px; /* Fixed height to ensure perfect circle */
+  width: 250px;
+  height: 250px;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -2674,7 +2670,7 @@ table.default thead {
   padding: 0;
 }
 
-/* Override any dimensions from responsive styles */
+
 @media screen and (max-width: 736px) {
   #top .image {
     width: 250px !important;
@@ -2683,7 +2679,7 @@ table.default thead {
   }
 }
 
-/* Project filtering system */
+
 .project-tags {
   text-align: center;
   margin-bottom: 2em;
@@ -2723,7 +2719,7 @@ ul.filter-tags li a.active {
   color: #fff;
 }
 
-/* Project tag styles */
+
 .project-tag-list {
   margin-top: 0.5em;
   display: flex;
@@ -2740,12 +2736,12 @@ ul.filter-tags li a.active {
   display: inline-block;
 }
 
-/* Hide filtered projects */
+
 [data-tags].hidden {
   display: none;
 }
 
-/* Equal-sized project cards */
+
 .box.style2 {
   height: 100%;
   display: flex;
@@ -2775,25 +2771,25 @@ ul.filter-tags li a.active {
 }
 
 .box.style2 p {
-  flex: 1; /* This makes the paragraph take up available space */
+  flex: 1;
   margin-bottom: 1em;
   display: -webkit-box;
-  -webkit-line-clamp: 10; /* Limit to 4 lines */
+  -webkit-line-clamp: 10;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .box.style2 .project-tag-list {
-  margin-top: auto; /* Push tags to bottom */
+  margin-top: auto;
 }
 
-/* Make columns equal height */
+
 .row > .col-4 {
-  margin-bottom: 2em; /* Add some spacing between rows */
+  margin-bottom: 2em;
 }
 
-/* Skills section styling */
+
 .skills-container {
   margin-bottom: 2em;
 }
@@ -2811,4 +2807,9 @@ ul.filter-tags li a.active {
 
 .skill-list li:last-child {
   border-bottom: none;
+}
+
+
+.tag.ongoing {
+  background-color: #e74c3c !important;
 }
