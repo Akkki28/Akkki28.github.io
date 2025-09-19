@@ -12,7 +12,7 @@
             <nav id="nav">
                 <ul class="container">
                     <li><a href="#top">About Me</a></li>
-                    <li><a href="#work">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -53,94 +53,54 @@
             </div>
         </article>
 
-        <!-- Skills -->
-            <article id="work" class="wrapper style2">
-                <div class="container">
-                    <header>
-                        <h2>Technical Skills</h2>
-                        <p>My expertise across programming, machine learning, and AI development</p>
-                    </header>
-                    
-                    <div class="row aln-center skills-container">
-                        <div class="col-4 col-6-medium col-12-small">
-                            <section class="box style1">
-                                <span class="icon solid featured fa-robot"></span>
-                                <h3>Robotics</h3>
-                                <ul class="skill-list">
-                                    <li>Reinforcement Learning</li>
-                                    <li>ROS2</li>
-                                    <li>Gazebo</li>
-                                    <li>MARL</li>
-                                </ul>
-                            </section>
+        <!-- Experience -->
+        <article id="experience" class="wrapper style2">
+    <div class="container">
+        <header>
+            <h2>Experience Roadmap</h2>
+            <p>My journey in AI research and development</p>
+        </header>
+        
+        <div class="roadmap">
+            <div class="timeline">
+                <div class="experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="experience-date">Mar 2024 - Present</div>
+                        <h2 class="experience-title">Research Internship</h2>
+                        <h3 class="university-name">National University of Singapore (NUS)</h3>
+                        <p class="project-topic"><b>Multi-agent Vision Language Navigation</b></p>
+                        <div class="experience-description">
+                            Working on research at MARMoT Lab on Multi-Agent Vision-Language Navigation.
                         </div>
-                        <div class="col-4 col-6-medium col-12-small">
-                            <section class="box style1">
-                                <span class="icon solid featured fa-brain"></span>
-                                <h3>Machine Learning</h3>
-                                <ul class="skill-list">
-                                    <li>TensorFlow</li>
-                                    <li>PyTorch</li>
-                                    <li>Scikit-learn</li>
-                                    <li>HuggingFace</li>
-                                </ul>
-                            </section>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small">
-                            <section class="box style1">
-                                <span class="icon solid featured fa-chart-line"></span>
-                                <h3>Data Analytics</h3>
-                                <ul class="skill-list">
-                                    <li>Numpy, Pandas</li>
-                                    <li>Matplotlib, Seaborn</li>
-                                    <li>Data Visualization</li>
-                                    <li>Statistical Analysis</li>
-                                </ul>
-                            </section>
+                        <div class="experience-skills">
+                            <span class="tag">LLMs</span>
+                            <span class="tag">Computer Vision</span>
                         </div>
                     </div>
-                    
-                    <div class="row aln-center skills-container">
-                        <div class="col-4 col-6-medium col-12-small">
-                            <section class="box style1">
-                                <span class="icon solid featured fa-comments"></span>
-                                <h3>NLP</h3>
-                                <ul class="skill-list">
-                                    <li>RNN, LSTM</li>
-                                    <li>Transformers</li>
-                                    <li>NLTK, re, spacy</li>
-                                    <li>BERT,GPT,LLMs</li>
-                                </ul>
-                            </section>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small">
-                            <section class="box style1">
-                                <span class="icon solid featured fa-eye"></span>
-                                <h3>Computer Vision</h3>
-                                <ul class="skill-list">
-                                    <li>CNN, GANs, VAEs</li>
-                                    <li>OpenCV, YOLO</li>
-                                    <li>Image Processing</li>
-                                    <li>Object Detection</li>
-                                </ul>
-                            </section>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small">
-                            <section class="box style1">
-                                <span class="icon solid featured fa-laptop-code"></span>
-                                <h3>Programming Languages</h3>
-                                <ul class="skill-list">
-                                    <li>Python</li>
-                                    <li>Java</li>
-                                    <li>C</li>
-                                    <li>SQL</li>
-                                </ul>
-                            </section>
-                        </div>
-                    </div>
-                    
                 </div>
-            </article>
+
+                <div class="experience-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="experience-date">June 2024 - Present</div>
+                        <h2 class="experience-title">Undergraduate Research Project</h2>
+                        <h3 class="university-name">Netaji Subhas University of Technology</h3>
+                        <p class="project-topic"><b>SG-CoT</b></p>
+                        <div class="experience-description">
+                           Developing Scene Graph Chain-of-Thought for resolving ambiguities in instructions given to robots
+                        </div>
+                        <div class="experience-skills">
+                            <span class="tag">LLMs</span>
+                            <span class="tag">Robotics</span>
+                            <span class="tag">Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
 
         <!-- Portfolio -->
             <article id="portfolio" class="wrapper style3">
@@ -151,16 +111,16 @@
                     </header>
                     
                     <!-- Project Filter Tags -->
-					<div class="project-tags">
-						<ul class="filter-tags">
-							<li><a href="#" class="active" data-filter="all">All</a></li>
-							<li><a href="#" data-filter="rl">Reinforcement Learning</a></li>
-							<li><a href="#" data-filter="cv">Computer Vision</a></li>
-							<li><a href="#" data-filter="nlp">NLP</a></li>
-							<li><a href="#" data-filter="marl">Multi-Agent</a></li>
-							<li><a href="#" data-filter="gnn">Graph Networks</a></li>
-						</ul>
-					</div>
+                    <div class="project-tags">
+                        <ul class="filter-tags">
+                            <li><a href="#" class="active" data-filter="all">All</a></li>
+                            <li><a href="#" data-filter="rl">Reinforcement Learning</a></li>
+                            <li><a href="#" data-filter="cv">Computer Vision</a></li>
+                            <li><a href="#" data-filter="nlp">NLP</a></li>
+                            <li><a href="#" data-filter="marl">Multi-Agent</a></li>
+                            <li><a href="#" data-filter="gnn">Graph Networks</a></li>
+                        </ul>
+                    </div>
                         
 
                     <div class="row">
@@ -329,8 +289,8 @@
             <script src="assets/js/jquery.scrolly.min.js"></script>
             <script src="assets/js/browser.min.js"></script>
             <script src="assets/js/breakpoints.min.js"></script>
-            <script src="assets/js/util.js"></script>
-            <script src="assets/js/main.js"></script>
+
+            <script src="assets/js/util.js"></script>            <script src="assets/js/main.js"></script>
 
     </body>
 </html>
