@@ -2834,14 +2834,14 @@ ul.filter-tags li a.active {
   left: 1.5em;
   width: 3px;
   height: 100%;
-  background: var(--button-primary);
+  background: linear-gradient(180deg, #64b5f6 0%, #7c4dff 40%, #ff8a80 100%);
   border-radius: 2px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
 }
 
 .experience-item {
   position: relative;
-  margin-bottom: 4em;
+  margin-bottom: 3.5em;
   transition: transform 0.3s ease;
 }
 
@@ -2859,113 +2859,63 @@ ul.filter-tags li a.active {
   top: 0.5em;
   width: 18px;
   height: 18px;
-  background: var(--button-primary);
+  background: linear-gradient(135deg, #64b5f6, #7c4dff);
   border-radius: 50%;
   z-index: 2;
-  box-shadow: 0 0 0 4px rgba(100, 181, 246, 0.2);
+  box-shadow: 0 0 0 5px rgba(124, 77, 255, 0.15);
   transition: all 0.3s ease;
 }
 
 .experience-item:hover .timeline-dot {
   transform: scale(1.2);
-  box-shadow: 0 0 0 6px rgba(100, 181, 246, 0.3);
+  box-shadow: 0 0 0 6px rgba(124, 77, 255, 0.3);
 }
 
 .timeline-content {
-  background: var(--box-bg);
-  border-radius: 8px;
-  padding: 2em;
-  margin-left: 0.5em;
-  text-align: left;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  border-left: 3px solid var(--button-primary);
-  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-left: 4px solid transparent;
+  background: linear-gradient(135deg, rgba(34, 34, 34, 0.95), rgba(18, 18, 18, 0.85));
+  backdrop-filter: blur(6px);
+  padding: 2.25em;
 }
 
-.experience-item:hover .timeline-content {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+.timeline-content:before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 18px;
+  bottom: 18px;
+  width: 4px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #64b5f6 0%, #7c4dff 50%, #ff8a80 100%);
 }
 
 .experience-date {
-  color: var(--link-color);
-  font-size: 0.9em;
-  font-weight: 600;
-  margin-bottom: 0.5em;
-  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.25em 0.85em;
+  border-radius: 999px;
+  background-color: rgba(100, 181, 246, 0.15);
+  border: 1px solid rgba(100, 181, 246, 0.35);
 }
 
 .experience-title {
-  font-size: 1.7em;
-  color: var(--heading-color);
-  margin: 0 0 0.5em 0;
-  font-weight: 700;
-  line-height: 1.3;
-}
-
-.university-name {
-  font-size: 1.2em;
-  color: var(--text-color);
-  margin: 0 0 0.3em 0;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-}
-
-.university-name:before {
-  content: '\f19d'; /* Font Awesome graduation cap icon */
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  margin-right: 0.5em;
-  color: var(--link-color);
-}
-
-.project-topic {
-  font-size: 1em;
-  color: var(--text-color);
-  margin: 0.5em 0 0 0;
-  line-height: 1.6;
-  padding-top: 0.5em;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 0.85em;
+  letter-spacing: 0.01em;
 }
 
 .experience-description {
-  margin-top: 1em;
-  line-height: 1.6;
-}
-
-.experience-skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  margin-top: 1em;
-}
-
-.experience-skills .tag {
-  background-color: rgba(100, 181, 246, 0.2);
-  color: var(--link-color);
-  border: 1px solid var(--link-color);
+  color: rgba(224, 224, 224, 0.85);
 }
 
 @media screen and (max-width: 736px) {
-  .timeline {
-    padding-left: 2.5em;
-  }
-  
-  .timeline:before {
-    left: 0.75em;
-  }
-  
-  .timeline-dot {
-    left: -2em;
-    width: 14px;
-    height: 14px;
-  }
-  
   .timeline-content {
     padding: 1.5em;
   }
-  
-  .experience-title {
-    font-size: 1.4em;
+
+  .timeline-content:before {
+    top: 12px;
+    bottom: 12px;
   }
 }
