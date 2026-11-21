@@ -1,291 +1,298 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Akshat Rana</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
-    <body class="is-preload">
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Akshat Rana</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/robot.css" />
+</head>
+<body>
+<canvas id="net"></canvas>
 
-        <!-- Nav -->
-            <nav id="nav">
-                <ul class="container">
-                    <li><a href="#top">About Me</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                </ul>
-            </nav>
+<nav>
+    <div class="wrap">
+        <a class="logo" href="#top">Akshat Rana</span></a>
+        <ul>
+            <li><a href="#top">about</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#papers">papers</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#skills">skills</a></li>
+        </ul>
+    </div>
+    <div id="progress"></div>
+</nav>
 
-        <!-- Home -->
-        <article id="top" class="wrapper style1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 col-5-large col-12-medium">
-                        <span class="image fit"><img src="images/me.jpg" alt="" /></span>
-                    </div>
-                    <div class="col-8 col-7-large col-12-medium">
-                        <header>
-                            <h1>Hi. I'm <strong>Akshat Rana</strong>.</h1>
-                        </header>
-                        <p>Interested in Reinforcement Learning with a focus on MARL and robotics. I also explore Computer Vision, NLP, and deep learning.</p>
-                        
-                        <!-- Education section -->
-                        <div class="education">
-                            <h3><i class="icon solid fa-graduation-cap"></i> Education</h3>
-                            <div class="degree">
-                                <h4>Netaji Subhas University of Technology</h4>
-                                <p style="font-size: 1.0rem;">B.Tech in Information Technology</p>
-                            </div>
-                        </div>
-                        
-                        <!-- Social links replacing the button -->
-                        <ul class="social">
-                            <li><a href="https://github.com/Akkki28" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                            <li><a href="https://www.linkedin.com/in/akshat-rana-9015a9255/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                            <li><a href="https://medium.com/@nexusplus81" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-                            <li><a href="mailto:akshat.rana@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-                            <!-- Add or remove social icons as needed -->
-                        </ul>
-                    </div>
+<!-- Home -->
+<header id="top">
+    <div class="wrap hero">
+        <div>
+            <div class="id-row">
+                <figure class="portrait">
+                    <img src="images/me3.jpg" alt="Akshat Rana">
+                    <span class="scan"></span>
+                    <figcaption class="mono">ID: A. RANA</figcaption>
+                </figure>
+                <div class="id-text">
+                    <h1>Hi. I'm <strong>Akshat Rana</strong>.</h1>
+                    <p class="lead">I am a Master's student in Robotics and AI, passionate about Reinforcement Learning, Computer Vision, and their application in robotics. My primary interest lies in developing end-to-end autonomous and open-ended robots, capable of evolving and learning new skills with experience.</p>
                 </div>
             </div>
-        </article>
 
-        <!-- Experience -->
-        <article id="experience" class="wrapper style2">
-    <div class="container">
-        <header>
-            <h2>Experience Roadmap</h2>
-            <p>My journey in AI research and development</p>
-        </header>
+            <div class="edu-mini">
+                <div><b>University College London (UCL)</b>MSc Robotics and Artificial Intelligence<br><span>London, UK · Sep 2026 – Sep 2027</span></div>
+                <div><b>Netaji Subhas University of Technology (NSUT)</b>B.Tech in Information Technology<br><span>Delhi, India · Nov 2022 – June 2026</span></div>
+            </div>
 
-        <div class="roadmap">
-            <div class="timeline">
-                <!-- Move the first experience-item here -->
-                <div class="experience-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="experience-date">Upcoming (Jan 2026 - June 2026)</div>
-                        <h2 class="experience-title">Research Internship</h2>
-                        <h3 class="university-name">International Institute of Information Technology - Hyderabad</h3>
-                        <p class="project-topic"><b>SG-CoT</b></p>
-                        <div class="experience-description">
-                           Foundational models for autonomous driving.
-                        </div>
-                        <div class="experience-skills">
-                            <span class="tag">Robotics</span>
-                            <span class="tag">Computer Vision</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- ...existing timeline items... -->
-                <div class="experience-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="experience-date">Mar 2025 - Present</div>
-                        <h2 class="experience-title">Research Internship</h2>
-                        <h3 class="university-name">National University of Singapore (NUS)</h3>
-                        <p class="project-topic"><b>Multi-agent Vision Language Navigation</b></p>
-                        <div class="experience-description">
-                            Working on research at MARMoT Lab on Multi-Agent Vision-Language Navigation.
-                        </div>
-                        <div class="experience-skills">
-                            <span class="tag">LLMs</span>
-                            <span class="tag">Computer Vision</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="experience-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="experience-date">June 2025 - Oct 2025</div>
-                        <h2 class="experience-title">Undergraduate Research Project</h2>
-                        <h3 class="university-name">Netaji Subhas University of Technology</h3>
-                        <p class="project-topic"><b>SG-CoT</b></p>
-                        <div class="experience-description">
-                           Developing Scene Graph Chain-of-Thought for resolving ambiguities in instructions given to robots
-                        </div>
-                        <div class="experience-skills">
-                            <span class="tag">LLMs</span>
-                            <span class="tag">Robotics</span>
-                            <span class="tag">Computer Vision</span>
-                        </div>
-                    </div>
-                </div>
+            <ul class="social">
+                <li><a href="https://github.com/Akkki28"><i class="fab fa-github"></i>GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/akshat-rana-9015a9255/"><i class="fab fa-linkedin-in"></i>LinkedIn</a></li>
+                <li><a href="https://scholar.google.com/citations?user=_RhvzD0AAAAJ&hl=en"><i class="fas fa-graduation-cap"></i>Scholar</a></li>
+                <li><a href="mailto:akshat.rana@gmail.com"><i class="fas fa-envelope"></i>Email</a></li>
+            </ul>
+        </div>
+
+        <div class="arm-box">
+            <div class="hud">
+                <span>ARM MANIPULATION TASK</span>
+                <span id="task-status">GOAL: 0 / 3 IN BIN</span>
+            </div>
+            <div class="arm-controls">
+                <button type="button" id="btn-teleop" class="arm-btn on"><i class="fas fa-gamepad"></i> Teleop</button>
+                <button type="button" id="btn-auto" class="arm-btn"><i class="fas fa-microchip"></i> Path Planning</button>
+                <button type="button" id="btn-reset" class="arm-btn btn-reset"><i class="fas fa-redo"></i> Reset</button>
+            </div>
+            <div class="arm-mode-hint mono" id="arm-hint">Teleop: move the cursor to guide the arm · hold click to close the gripper</div>
+            <canvas id="arm"></canvas>
+            <div class="hud-b mono" id="telemetry"></div>
+        </div>
+    </div>
+</header>
+
+<!-- Experience -->
+<section id="experience">
+    <div class="wrap">
+        <div class="sh reveal"><b>01</b></div>
+        <h2 class="reveal">Experience</h2>
+        <div class="timeline">
+            <div class="card reveal">
+                <div class="date">June 2025 – Oct 2025</div>
+                <h3>Student Researcher</h3>
+                <div class="org">Netaji Subhas University of Technology (NSUT)</div>
+                <ul>
+                    <li>Formalized a novel methodology that detects and resolves ambiguities in robotic environments using scene graph representations.</li>
+                    <li>Outperformed existing methods by 4% in ambiguity detection and 15% in task success rate.</li>
+                    <li>Supervised by <b>Prof. KPS Rana</b> and <b>Prof. Amarjit Malhotra</b>.</li>
+                </ul>
+                <span class="tag">Robotics</span><span class="tag">Scene Graphs</span>
+            </div>
+            <div class="card reveal">
+                <div class="date">April 2025 – Aug 2025</div>
+                <h3>Remote Research Intern</h3>
+                <div class="org">National University of Singapore (NUS)</div>
+                <ul>
+                    <li>Conducted research at MARMoT Lab on Multi-Agent Vision-Language Navigation.</li>
+                    <li>Supervised by <b>Prof. Guillaume A. Sartoretti</b>.</li>
+                </ul>
+                <span class="tag">Multi-Agent</span><span class="tag">Vision-Language Navigation</span>
             </div>
         </div>
     </div>
-</article>
+</section>
 
-        <!-- Portfolio -->
-            <article id="portfolio" class="wrapper style3">
-                <div class="container">
-                    <header>
-                        <h2>Featured Projects</h2>
-                        <p>A selection of my research work and implementations in machine learning and AI</p>
-                    </header>
-                    
-                    <!-- Project Filter Tags -->
-                    <div class="project-tags">
-                        <ul class="filter-tags">
-                            <li><a href="#" class="active" data-filter="all">All</a></li>
-                            <li><a href="#" data-filter="rl">Reinforcement Learning</a></li>
-                            <li><a href="#" data-filter="cv">Computer Vision</a></li>
-                            <li><a href="#" data-filter="nlp">NLP</a></li>
-                            <li><a href="#" data-filter="marl">Multi-Agent</a></li>
-                            <li><a href="#" data-filter="gnn">Graph Networks</a></li>
-                        </ul>
-                    </div>
-                        
+<!-- Papers -->
+<section id="papers">
+    <div class="wrap">
+        <div class="sh reveal"><b>02</b></div>
+        <h2 class="reveal">Papers</h2>
+        <div class="grid2">
+            <div class="card reveal">
+                <div class="venue">Published in International Journal of Innovation Science</div>
+                <h3>What Work is AI Actually Doing? Uncovering the Drivers of Generative AI Adoption</h3>
+                <div class="authors">Peeyush Agarwal, Harsh Agarwal, Akshat Rana</div>
+                <a class="btn" href="https://www.emerald.com/ijis/article-abstract/doi/10.1108/IJIS-10-2025-0512/1399135/What-work-is-AI-actually-doing-Uncovering-the">Paper →</a>
+            </div>
+            <div class="card reveal">
+                <div class="venue">Under Review</div>
+                <h3>SG-CoT: An Ambiguity-Aware Robotic Planning Framework using Scene Graph Representations</h3>
+                <div class="authors">Akshat Rana, Peeyush Agarwal, KPS Rana, Amarjit Malhotra</div>
+                <a class="btn" href="https://arxiv.org/abs/2603.18271">Paper →</a>
+            </div>
+        </div>
+    </div>
+</section>
 
-                    <div class="row">
-                        <div class="col-4 col-6-medium col-12-small" data-tags="rl">
-                            <article class="box style2">
-                                <a href="https://github.com/Akkki28/Mobile-Robot-Nav" class="image featured"><img src="images/Screenshot 2025-03-17 025359.png" alt="" /></a>
-                                <h3><a href="https://github.com/Akkki28/Mobile-Robot-Nav">Mobile Robot Navigation</a></h3>
-                                <p>An ROS2 project that trains a mobile robot to navigate through obstacles using Soft Actor-Critic reinforcement learning.</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">RL</span>
-                                </div>
-                            </article>
-                        </div>
-                        
-                        <div class="col-4 col-6-medium col-12-small" data-tags="rl">
-                            <article class="box style2">
-                                <a href="https://github.com/Akkki28/WatchAI" class="image featured"><img src="images/bg2.jpg" alt="" /></a>
-                                <h3><a href="https://github.com/Akkki28/WatchAI">WatchAI</a></h3>
-                                <p>A platform with an intelligent recommendation system using Deep Reinforcement Learning based
-									contextual bandit algorithm DeepLinUCB to deliver personalized movie suggestions .</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">RL</span>
-                                </div>
-                            </article>
-                        </div>
+<!-- Projects -->
+<section id="projects">
+    <div class="wrap">
+        <div class="sh reveal"><b>03</b></div>
+        <h2 class="reveal">Projects</h2>
+        <div class="filters reveal"><button class="on" data-filter="all">All</button><button data-filter="rl">Reinforcement Learning</button><button data-filter="marl">Multi-Agent</button><button data-filter="robotics">Robotics</button><button data-filter="cv">Computer Vision</button><button data-filter="nlp">NLP</button><button data-filter="gnn">Graph Networks</button><button data-filter="ml">General ML</button></div>
+        <div class="grid3" id="projGrid">
 
-                        <div class="col-4 col-6-medium col-12-small" data-tags="cv">
-                            <article class="box style2">
-                                <a href="https://github.com/Akkki28/Background-Stylizer" class="image featured"><img src="images/Bgstylizer.jpeg" alt="" /></a>
-                                <h3><a href="https://github.com/Akkki28/Background-Stylizer">Background Stylizer</a></h3>
-                                <p>A model that stylizes the background of an image cropping out the person in it using Neural Style transfer and semantic segmentaion techniques.</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">Computer Vision</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small" data-tags="nlp">
-                            <article class="box style2">
-                                <a href="https://github.com/Akkki28/SparseMax-Transformers" class="image featured"><img src="images/SparseMAx.png" alt="" /></a>
-                                <h3><a href="https://github.com/Akkki28/SparseMax-Transformers">SparseMax Transformer</a></h3>
-                                <p>A transformer from scratch that uses a SparseMax Attention mechanism instead of the standard softmax attention.</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">NLP</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small" data-tags="marl rl gnn">
-                            <article class="box style2">
-                                <a href="https://github.com/Akkki28/GNN-MARL" class="image featured"><img src="images/swarm.jpg" alt="" /></a>
-                                <h3><a href="https://github.com/Akkki28/GNN-MARL">Swarm Robotics with GNN-Based MARL</a></h3>
-                                <p>A graph neural network approach to multi-agent reinforcement learning for coordinating swarm robot behaviors and task allocation.</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">MARL</span>
-                                    <span class="tag">RL</span>
-                                    <span class="tag">GNN</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small" data-tags="rl">
-                            <article class="box style2">
-                                <div class="image featured">
-                                    <img src="images/5G.jpeg" alt="" />
-                                </div>     
-                                <h3>RL in 5G Slicing</h3>
-                                <p>Using Reinforcement Learning for Network Slicing and Virtualization in 5G and beyond Networks</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">RL</span>
-                                    <span class="tag ongoing">Ongoing</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small" data-tags="rl">
-                            <article class="box style2">
-                                <a href="https://github.com/Akkki28/PPOvsSAC" class="image featured"><img src="images/PPOvsSAC.jpeg" alt="" /></a>
-                                <h3><a href="https://github.com/Akkki28/PPOvsSAC">PPOvsSAC</a></h3>
-                                <p>Conducted performance comparison of Proximal Policy Optimization and Soft Actor-Critic algorithms in robotics-based simulations
-								</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">RL</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small" data-tags="nlp">
-                            <article class="box style2">
-                                <a href="https://github.com/Akkki28/Learn-AI" class="image featured"><img src="images/LearnAI.jpeg" alt="" /></a>
-                                <h3><a href="https://github.com/Akkki28/Learn-AI">LearnAI</a></h3>
-                                <p>LearnAI is a Streamlit-based application that helps users learn efficiently with artificial intelligence. It provides text summarization, keyword extraction, question generation, and doubt solving functionalities.</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">NLP</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small" data-tags="marl rl">
-                            <article class="box style2">
-                                <div class="image featured">
-                                    <img src="images/Social Roles.jpeg" alt="" />
-                                </div>
-                                <h3>Cooperative Learning with social roles</h3>
-                                <p>A Multiagent Cooperative Learning System With Evolution of Social Roles</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">MARL</span>
-                                    <span class="tag">RL</span>
-                                    <span class="tag ongoing">Ongoing</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small" data-tags="rl">
-                            <article class="box style2">
-                                <a href="https://github.com/Akkki28/RLite" class="image featured"><img src="images/RLite.png" alt="" /></a>
-                                <h3><a href="https://github.com/Akkki28/RLite">RLite</a></h3>
-                                <p> A Python library that streamlines the implementation of reinforcement learning algorithms supporting both finite and infinite state spaces.
-								</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">RL</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small" data-tags="cv gan">
-                            <article class="box style2">
-                                <a href="https://github.com/Akkki28/fashion-generation-using-GANs" class="image featured"><img src="images/GANs.jpg" alt="" /></a>
-                                <h3><a href="https://github.com/Akkki28/fashion-generation-using-GANs">Fashion Generation GANs</a></h3>
-                                <p>Generative adversarial networks for creating innovative fashion designs and patterns.</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">Computer Vision</span>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-4 col-6-medium col-12-small" data-tags="gnn">
-                            <article class="box style2">
-                                <a href="https://github.com/Akkki28/Solubility-prediction" class="image featured"><img src="images/sol2.jpg" alt="" /></a>
-                                <h3><a href="https://github.com/Akkki28/Solubility-prediction">Solubility Prediction</a></h3>
-                                <p>Graph neural networks for molecular solubility prediction in pharmaceutical research.</p>
-                                <div class="project-tag-list">
-                                    <span class="tag">GNN</span>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    
+            <div class="card proj reveal" data-tags="rl robotics">
+                 <div class="thumb"><img src="images/open-ended.png" alt=""></div>
+                <h3>Open-Ended Reinforcement Learning</h3>
+                <p>Implemented an open-ended reinforcement learning framework that uses LLMs to generate new and learnable tasks from a base environment. Enabled the robot to evolve a diverse family of policies through iterative environment generation, each exhibiting distinct behaviors and skills.</p>
+                <a class="btn" href="https://github.com/Akkki28/Open-ended-RL/tree/OE">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="robotics ml">
+                 <div class="thumb"><img src="images/IL.png" alt=""></div>
+                <h3>Behaviour Cloning</h3>
+                <p>Implemented a Behaviour cloning startegy for a 7-DOF kinova arm on a 4-wheeled base bearing for control, navigation and obstcale avoidance.</p>
+                <a class="btn" href="https://github.com/Rodrigo30406/comp0245-final-project/tree/main">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="rl robotics marl">
+                 <div class="thumb"><img src="images/drones.png" alt=""></div>
+                <h3>Multi-Agent Drone Control</h3>
+                <p>Implemented a MAPPO-based multi-agent reinforcement learning system for cooperative control of configurable quadrotor swarms in a PyBullet simulation.</p>
+                <a class="btn" href="https://github.com/Akkki28/Open-ended-RL/tree/OE">GitHub →</a>
+            </div>      
+
+            <div class="card proj reveal" data-tags="rl robotics">
+                <div class="thumb"><img src="images/Screenshot 2025-03-17 025359.png" alt=""></div>
+                <h3>Mobile Robot Navigation</h3>
+                <p>An ROS2 project that trains a mobile robot to navigate through obstacles using Soft Actor-Critic reinforcement learning.</p>
+                <a class="btn" href="https://github.com/Akkki28/Mobile-Robot-Nav">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="marl rl gnn robotics">
+                <div class="thumb"><img src="images/swarm.jpg" alt=""></div>
+                <h3>Swarm Robotics with GNN-Based MARL</h3>
+                <p>A graph neural network approach to multi-agent reinforcement learning for coordinating swarm robot behaviors and task allocation.</p>
+                <a class="btn" href="https://github.com/Akkki28/GNN-MARL">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="robotics">
+                <div class="thumb"><img src="images/LC-drive.png" alt=""></div>
+                <h3>Language Conditioned Goal Prediction</h3>
+                <p>Developed a transformer based model for language-conditioned vehicle goal prediction in MetaDrive simulator using LiDAR observations. Incorporated discrete maneuver instructions as conditioning inputs to allow user-specified behavior for an autonomous driver.</p>
+                <a class="btn" href="https://github.com/Akkki28/MetaDrive-RL">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="rl">
+                <div class="thumb"><img src="images/5G.jpeg" alt=""></div>
+                <h3>RL in 5G Networks</h3>
+                <p>Developed a Reinforcement Learning based approach to allocate network slices in 5G and beyond networks, utilizing algorithms like SAC, DQN, Self-Play Ensemble Q-learning etc. Supervised by <b>Prof. Nisha Kandhoul</b>.</p>
+                <a class="btn" href="https://github.com/Akkki28/NND-Project/blob/main/Project_Report.pdf">Project Report →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="ml">
+                <div class="thumb"><img src="images/GP_bands.png" alt=""></div>
+                <h3>Bayesian Optimization for Hyperparameter Tuning</h3>
+                <p>Implemented Bayesian optimization from scratch using Gaussian Process and the Lower Confidence Bound acquisition function for automated hyperparameter tuning. Improved predictive performance by up to 10% across XGBoost, SVM, and KNN.</p>
+                <a class="btn" href="https://github.com/Akkki28/Bayesian-Optimization">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="rl">
+                <div class="thumb"><img src="images/bg2.jpg" alt=""></div>
+                <h3>WatchAI</h3>
+                <p>A platform with an intelligent recommendation system using Deep Reinforcement Learning based contextual bandit algorithm DeepLinUCB to deliver personalized movie suggestions, with real-time updates based on user interactions.</p>
+                <a class="btn" href="https://github.com/Akkki28/WatchAI/tree/main">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="rl robotics">
+                <div class="thumb"><img src="images/PPOvsSAC.jpeg" alt=""></div>
+                <h3>PPOvsSAC</h3>
+                <p>Conducted performance comparison of Proximal Policy Optimization and Soft Actor-Critic algorithms in robotics-based simulations.</p>
+                <a class="btn" href="https://github.com/Akkki28/PPOvsSAC">GitHub →</a>
+            </div>
+
+
+            <div class="card proj reveal" data-tags="ml">
+                <div class="thumb"><img src="images/SparseMAx.png" alt=""></div>
+                <h3>SparseMax Transformer</h3>
+                <p>A transformer from scratch that uses a SparseMax Attention mechanism instead of the standard softmax attention.</p>
+                <a class="btn" href="https://github.com/Akkki28/SparseMax-Transformers">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="ml">
+                <div class="thumb"><img src="images/LearnAI.jpeg" alt=""></div>
+                <h3>LearnAI</h3>
+                <p>A Streamlit-based application that helps users learn efficiently with artificial intelligence. It provides text summarization, keyword extraction, question generation, and doubt solving functionalities.</p>
+                <a class="btn" href="https://github.com/Akkki28/Learn-AI">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="cv">
+                <div class="thumb"><img src="images/Bgstylizer.jpeg" alt=""></div>
+                <h3>Background Stylizer</h3>
+                <p>A model that stylizes the background of an image, cropping out the person in it, using Neural Style Transfer and semantic segmentation techniques.</p>
+                <a class="btn" href="https://github.com/Akkki28/Background-Stylizer">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="cv">
+                <div class="thumb"><img src="images/GANs.jpg" alt=""></div>
+                <h3>Fashion Generation GANs</h3>
+                <p>Generative adversarial networks for creating innovative fashion designs and patterns.</p>
+                <a class="btn" href="https://github.com/Akkki28/fashion-generation-using-GANs">GitHub →</a>
+            </div>
+
+            <div class="card proj reveal" data-tags="gnn ml">
+                <div class="thumb"><img src="images/sol2.jpg" alt=""></div>
+                <h3>Solubility Prediction</h3>
+                <p>Graph neural networks for molecular solubility prediction in pharmaceutical research.</p>
+                <a class="btn" href="https://github.com/Akkki28/Solubility-prediction">GitHub →</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <div class="wrap">
+        <div class="sh reveal"><b>04</b></div>
+        <h2 class="reveal">Skills</h2>
+        <div class="bento">
+            <div class="bx big reveal">
+                <h4><i class="fas fa-brain"></i> Machine Learning</h4>
+                <div class="chips">
+                    <span>Reinforcement Learning</span><span>Representation Learning</span><span>Bayesian Optimization</span>
+                    <span>Computer Vision</span><span class="sub">Image Processing</span><span class="sub">3D Reconstruction</span>
+                    <span>NLP</span><span class="sub">BERT</span><span class="sub">LLMs</span><span class="sub">RNNs/LSTMs</span><span class="sub">Text Classification &amp; Generation</span>
+                    <span>Linear &amp; Logistic Regression</span><span>Decision Trees</span><span>SVM</span><span>KNN</span>
+                    <span>Ensemble Methods</span><span class="sub">Bagging</span><span class="sub">Boosting</span>
                 </div>
-            </article>
+            </div>
+            <div class="bx reveal">
+                <h4><i class="fas fa-robot"></i> Robotics &amp; Simulation</h4>
+                <div class="chips"><span>ROS2</span><span>PyBullet</span><span>Gazebo</span><span>Habitat</span><span>CARLA</span><span>AI2-THOR</span></div>
+            </div>
+            <div class="bx reveal">
+                <h4><i class="fas fa-cubes"></i> Frameworks</h4>
+                <div class="chips"><span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span><span>Hugging Face Transformers</span><span>OpenCV</span><span>YOLO</span></div>
+            </div>
+            <div class="bx reveal">
+                <h4><i class="fas fa-terminal"></i> Languages</h4>
+                <div class="chips"><span>Python</span><span>Java</span><span>C</span><span>SQL</span></div>
+            </div>
+            <div class="bx reveal">
+                <h4><i class="fas fa-chart-line"></i> Data &amp; Science</h4>
+                <div class="chips"><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span></div>
+            </div>
+            <div class="bx reveal">
+                <h4><i class="fas fa-globe"></i> Web</h4>
+                <div class="chips"><span>HTML</span><span>Flask</span><span>Streamlit</span></div>
+            </div>
+            <div class="bx stat reveal"><div class="n">1268</div><div class="l">Codeforces · Pupil</div></div>
+            <div class="bx stat reveal"><div class="n">Top 10%</div><div class="l">LeetCode</div></div>
+        </div>
+    </div>
+</section>
 
-        <!-- Scripts -->
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.scrolly.min.js"></script>
-            <script src="assets/js/browser.min.js"></script>
-            <script src="assets/js/breakpoints.min.js"></script>
 
-            <script src="assets/js/util.js"></script>            <script src="assets/js/main.js"></script>
+<script src="assets/js/arm-core.js"></script>
+<script src="assets/js/arm.js"></script>
+<script src="assets/js/robot.js"></script>
 
-    </body>
+</body>
 </html>
+
+
+
+
